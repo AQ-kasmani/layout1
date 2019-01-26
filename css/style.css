@@ -1,0 +1,82 @@
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	font-family: montserrat;
+}
+.maincolor{
+	color: #0e426a;
+}
+p{
+	margin: 0;
+	padding: 0;
+	font-family: roboto;	
+	font-size: 16px;
+	color: #444444;
+}
+.banner{
+	background-image: url('../img/banner.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.overlay{
+	background-color: rgba(14, 66, 106, 0.5);
+	padding: 175px 0;
+}
+.banner h1{
+	color: white;
+	font-size: 44px;
+	font-weight: 600; 
+}
+
+.bg-theme{
+	background-color: #f0f6f5;
+}
+.bg-green{
+	background-color: #53b59f;
+	color: white;
+}
+.surveycontent {
+	padding: 70px 0;
+}
+.surveycontent h3{
+	font-weight: 700;
+	margin-bottom: 25px;
+	font-size: 22px;
+}
+.surveycontent p{
+	line-height: 24px;
+}
+.mt-40{
+	margin-top: 40px;
+}
+.surveyform label{
+	font-size: 18px;
+	margin: 20px 0 25px 0;
+	font-family: montserrat;	
+}
+.surveyform input[type='radio']{
+	margin: 10px;
+}
+.surveyform ul{
+	padding: 0;	
+	list-style: none;
+}
+.surveyform ul li{
+	font-family: roboto;	
+	font-size: 16px;
+	color: #444444;		
+}
+table tbody tr:nth-child(even){
+	background-color: #f0f6f5;
+}
+table tbody tr{
+	text-align: center;	
+}
+.surveyform textarea{
+	height: 250px;
+	resize: none;
+}
+.pd{
+	padding: 40px 0;
+}
